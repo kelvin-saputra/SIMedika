@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: SIMedika
+
+    thymeleaf:
+        prefix: file:src/main/resources/templates/
+        cache: false
+
+    
+    mvc:
+        static-path-pattern: /**
+        
+    devtools:
+        livereload:
+            enabled: true
+            
